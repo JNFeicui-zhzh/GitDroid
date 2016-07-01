@@ -8,7 +8,7 @@ import android.widget.Toast;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import feicui.edu.gitdroid.MainActivity;
+import feicui.edu.gitdroid.home.MainActivity;
 import feicui.edu.gitdroid.R;
 import feicui.edu.gitdroid.commons.ActivityUtils;
 

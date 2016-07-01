@@ -14,8 +14,14 @@
         app:tabTextAppearance="@style/AppTheme.TabTextAppearance"
         app:tabSelectedTextColor="@android:color/white"
         app:tabMode="scrollable"/>
+
+    <!--放不同的最热门的语言相关库-->
+    <!--我们要去做ViewPager的Adapter-->
+
+    <!--View-->
+    <!--Fragment-->
     <android.support.v4.view.ViewPager
-        android:id="@+id/viewPager"
+        android:id="@+id/viewPager1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
