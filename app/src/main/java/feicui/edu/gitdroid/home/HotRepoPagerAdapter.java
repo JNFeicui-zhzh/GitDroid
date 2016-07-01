@@ -1,6 +1,5 @@
 package feicui.edu.gitdroid.home;
 
-import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -8,13 +7,15 @@ import android.support.v4.app.FragmentPagerAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
+import feicui.edu.gitdroid.repo.RepoListFragment;
+
 /**
  * Created by hp on 2016/7/1.
  */
 public class HotRepoPagerAdapter extends FragmentPagerAdapter {
 
     private final List<String> languages;//列表
-    public HotRepoPagerAdapter(FragmentManager fm, Context context) {
+    public HotRepoPagerAdapter(FragmentManager fm) {
         super(fm);
         languages=new ArrayList<>();
         languages.add("java 1");
